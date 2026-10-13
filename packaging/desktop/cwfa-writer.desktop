@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Creative Writer
+GenericName=Children's word processor
+Comment=Run Microsoft Creative Writer (1990s) natively; you need your own CD
+Exec=cwfa-launch writer --user-data
+Icon=cwfa-writer
+Terminal=false
+Categories=Education;Literature;
+Keywords=writing;kids;retro;Windows 3.1;
+StartupWMClass=cwfa-writer

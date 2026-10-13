@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Fine Artist
+GenericName=Children's painting program
+Comment=Run Microsoft Fine Artist (1990s) natively; you need your own CD
+Exec=cwfa-launch artist --user-data
+Icon=cwfa-artist
+Terminal=false
+Categories=Education;Art;
+Keywords=painting;kids;retro;Windows 3.1;
+StartupWMClass=cwfa-artist

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.malexvr.cwfa.writer_es</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Creative Writer</name>
+  <summary>Run the 1990s children's word processor , Spanish edition, on Linux</summary>
+  <summary xml:lang="es">Ejecuta en Linux el procesador de textos infantil de los años 90 (edición en español)</summary>
+  <description>
+    <p>
+      A native Linux runtime for Creative Writer, the 1990s Windows 3.1 word processor and desktop publisher for children. It loads your original
+      program files and runs them without Wine and without Windows.
+    </p>
+    <p>
+      This package contains no Microsoft software. You need your own copy of the CD (or its disc image),
+      the Spanish disks; the first start asks where it is and remembers it. Your users and documents are kept in
+      ~/.local/share/cwfa/data-es, and printing saves PDF files in your Documents folder.
+    </p>
+    <p xml:lang="es">
+      Un runtime nativo de Linux para Creative Writer, el procesador de textos y editor para niños de Windows 3.1 de los años 90, en su edición en español. Carga tus archivos originales y los ejecuta sin Wine y sin Windows. Este paquete no contiene software de Microsoft: necesitas tu propia copia de los discos.
+    </p>
+  </description>
+  <launchable type="desktop-id">cwfa-es-writer.desktop</launchable>
+  <icon type="stock">cwfa-es-writer</icon>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Creative Writer (Spanish edition) running natively</caption>
+      <image type="source">https://raw.githubusercontent.com/MAlexVR/creative-writer-fine-artist-linux/main/docs/screenshots/es-writer-07-studio.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/MAlexVR/creative-writer-fine-artist-linux</url>
+  <url type="bugtracker">https://github.com/MAlexVR/creative-writer-fine-artist-linux/issues</url>
+  <developer id="io.github.malexvr">
+    <name>MAlexVR</name>
+  </developer>
+  <categories>
+    <category>Education</category>
+    <category>Office</category>
+  </categories>
+  <keywords>
+    <keyword>writing</keyword>
+    <keyword>kids</keyword>
+    <keyword>retro</keyword>
+    <keyword>Windows 3.1</keyword>
+  </keywords>
+  <languages>
+    <lang>es</lang>
+  </languages>
+  <provides>
+    <binary>cwfa-launch</binary>
+  </provides>
+  <requires>
+    <display_length compare="ge">640</display_length>
+  </requires>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-10-12"/>
+  </releases>
+</component>

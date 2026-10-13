@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Fine Artist
+GenericName=Children's painting program
+GenericName[es]=Programa de pintura para niños
+Comment=Run Microsoft Fine Artist (1990s, Spanish edition) natively; you need your own disks
+Comment[es]=Ejecuta Microsoft Fine Artist (años 90, edición en español) de forma nativa; necesitas tus propios discos
+Exec=cwfa-launch es-artist --user-data
+Icon=cwfa-es-artist
+Terminal=false
+Categories=Education;Art;
+Keywords=painting;drawing;kids;retro;Windows 3.1;Spanish;
+Keywords[es]=pintura;dibujo;niños;retro;Windows 3.1;español;
+StartupWMClass=cwfa-es-artist

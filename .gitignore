@@ -1,0 +1,12 @@
+build/
+*.o
+*.EXE
+*.DLL
+*.exe
+*.dll
+*.ISO
+*.iso
+*.PIC
+reference/
+dist/
+cwfa-data*/

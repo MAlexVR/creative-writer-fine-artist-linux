@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=Creative Writer
+GenericName=Children's word processor
+GenericName[es]=Procesador de textos para niños
+Comment=Run Microsoft Creative Writer (1990s, Spanish edition) natively; you need your own disks
+Comment[es]=Ejecuta Microsoft Creative Writer (años 90, edición en español) de forma nativa; necesitas tus propios discos
+Exec=cwfa-launch es-writer --user-data
+Icon=cwfa-es-writer
+Terminal=false
+Categories=Education;Literature;
+Keywords=writing;kids;retro;Windows 3.1;Spanish;
+Keywords[es]=escritura;niños;retro;Windows 3.1;español;
+StartupWMClass=cwfa-es-writer

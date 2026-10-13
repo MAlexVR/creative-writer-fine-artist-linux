@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>Creative Writer (generic launcher icon)</title>
+  <rect x="8" y="8" width="112" height="112" rx="22" fill="#2f9e44"/>
+  <rect x="30" y="22" width="56" height="76" rx="5" fill="#ffffff"/>
+  <g stroke="#2f9e44" stroke-width="5" stroke-linecap="round">
+    <line x1="40" y1="42" x2="76" y2="42"/>
+    <line x1="40" y1="56" x2="76" y2="56"/>
+    <line x1="40" y1="70" x2="62" y2="70"/>
+  </g>
+  <g transform="rotate(40 88 84)">
+    <rect x="80" y="44" width="16" height="64" fill="#ffd43b" stroke="#1b1b1b" stroke-width="3"/>
+    <polygon points="80,108 96,108 88,122" fill="#f1d9b5" stroke="#1b1b1b" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="80" y="38" width="16" height="10" fill="#ff8787" stroke="#1b1b1b" stroke-width="3"/>
+  </g>
+</svg>
